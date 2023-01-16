@@ -5,10 +5,9 @@
     margin: 1rem auto 0;
 }
 
-.container {
+#trafficLights {
     background-color: black;
     width: 6rem;
-    height: 16rem;
     border-radius: 10px;
     padding: 0.5rem 0.25rem;
 }
@@ -17,22 +16,18 @@
     border-radius: 50%;
     width: 5rem;
     height: 5rem;
-    margin: 0 auto;
+    margin: .25rem auto;
 }
 
-.red {
-    background-color: darkred;
-}
-.yellow{
-    background-color: chocolate;
+.bg-purple {
+    background-color: #80008080;
 }
 
-.green {
-    background-color: darkgreen;
+.bg-purple.on{
+    background-color: #800080;
 }
 
 .selected {
     box-shadow: 0 0 40px 20px rgb(255, 255, 180);
-    z-index: 1;
     position: relative;
 }
