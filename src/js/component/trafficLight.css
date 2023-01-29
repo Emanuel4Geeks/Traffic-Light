@@ -20,14 +20,15 @@
 }
 
 .bg-purple {
-    background-color: #80008080;
+    --bs-bg-opacity: 1;
+    background-color: rgba(128, 0, 128, var(--bs-bg-opacity)) !important
 }
 
-.bg-purple.on{
-    background-color: #800080;
+.bg-opacity-50 {
+    --bs-bg-opacity: 0.5;
 }
 
-.selected {
+.active {
     box-shadow: 0 0 40px 20px rgb(255, 255, 180);
     position: relative;
 }
